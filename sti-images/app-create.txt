@@ -1,0 +1,4 @@
+pyinstaller --onefile --windowed main.py
+rm dist/main.app/Contents/Resources/icon-windowed.icns
+cp icon-windowed.icnd dist/main.app/Contents/Resources/icon-windowed.icns
+mv dist/main.app ../apps/NEW.app

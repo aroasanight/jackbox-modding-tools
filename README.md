@@ -1,0 +1,6 @@
+# Survive The Internet - Photosharing
+1. Download `Survive The Internet - Photosharing Image Modder.app` from the `apps` folder. (if you wish to inspect the code, the way this app was created was by running the commands found in `sti-images/app-create` whilst cd'd into the `sti-images` folder.)
+2. Open the app. You may need to right click > open it.
+3. The default paths WILL NOT WORK - use the Browse buttons to select a folder containing the .jpg, .jpeg and .png images you wish to use for the Input folder, and empty folders for the other two folders.
+4. Delete everything from `~/Library/Application Support/Steam/steamapps/common/The Jackbox Party Pack 4/The Jackbox Party Pack 4.app/Contents/Resources/macos/games/SurviveTheInternet/content/STIPhoto`, apart from the `Thumbnails` folder. Delete all files inside of the thumbnails folder, but don't delete the folder itself.
+5. Copy the contents of the folder you selected for the main output of the program and paste them into `~/Library/Application Support/Steam/steamapps/common/The Jackbox Party Pack 4/The Jackbox Party Pack 4.app/Contents/Resources/macos/games/SurviveTheInternet/content/STIPhoto`. Copy the contents of the folder you selected for the thumbnail output of the program and paste them into the `Thumbnails` folder inside of the folder you just pasted into.

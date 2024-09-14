@@ -1,0 +1,3 @@
+([('main',
+   '/Users/garlicbread/Desktop/jackbox-modding-tools/sti-images/dist/main',
+   'EXECUTABLE')],)
